@@ -1,1 +1,69 @@
+<style type="text/css">
+			* {
+				box-sizing: border-box;
+										}
+			h1 { text-align: center;
+				 position: relative;
+				 top: 30px;
 
+			}							
+			.word, .prayer, .worship { 	
+						height: auto;
+						border: 1px solid green;
+						padding: 0px 0px 0px 10px;
+						margin: 10px;
+						position: relative;
+						top: 80px;
+						background-color: #FF6347;
+						box-sizing: content-box;
+													}
+						 
+			h2 		{ 	border: 1px solid black;
+						float: right;
+						position: static;
+						margin-top: 0px;
+						top: 0px;
+						left:100px;
+						padding: 5px;
+
+										}
+		.word h2 { background-color:#FFD700; }	
+		.prayer h2 {background-color: #00FF00}	
+		.worship h2 {background-color: #FF00FF}						
+			p { margin-bottom: 5px;
+				margin-top: 40px;
+			}								
+			#article { width: 100%
+
+			}
+			@media (min-width:992px) {
+				.word, .prayer, .worship{
+					float: left; 
+									}
+					.word {width: 30%}
+					.prayer {width: 30%}
+					.worship {width: 30%}
+				}
+			@media (min-width: 768px) and (max-width: 991px){
+				.word, .prayer, .worship {width: 95%;
+					float: left;
+					position: relative;
+					}
+				.word {width: 45%}
+				.prayer {width: 45%}
+				.worship {width: 90;
+							}		
+				}
+
+			@media (max-width:767px){
+				.word, .prayer, .worship{
+					margin-left: 30px;
+					margin-top: 50px;
+					float: center; 
+					width: 90%;
+					position: static;}
+
+				}		
+			}
+			
+		</style>
