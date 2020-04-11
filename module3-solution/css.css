@@ -1,0 +1,38 @@
+body {
+  font-size: 16px;
+  color: #fff;					
+  background-color: #8B0000;
+  font-family: 'Lora', sans-serif;
+}
+/** HEADER **/
+.navbar-brand {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+div h2 {height: 1000px;
+
+}
+#chicken {
+	background-color: green;
+}
+#beef {
+	background-color: blue;
+}
+#sushi {
+	background-color: yellow;
+}
+h2 { padding-top: 15px;
+	text-align: center;
+}
+#content h1 { 
+	padding-top: 5px;
+ }
+@media (min-width: 1200px) { #collapsable-nav {visibility: hidden;}} 
+ 
+@media (min-width: 768px) and (max-width: 1199px) {#collapsable-nav {visibility: hidden;}}
